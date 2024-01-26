@@ -24,3 +24,8 @@
     left:20px;
 
 }
+@media (max-width: 768px) {
+    .featuredItem{
+        height: 160px!important;
+    }
+}
