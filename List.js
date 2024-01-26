@@ -1,11 +1,11 @@
 import React, { useState,useEffect } from 'react'
 import {format} from "date-fns";
-import './Components/List.css';
-import Navbar from './Components/Navbar'
-import Header from './Components/Header'
+import './List.css';
+import Navbar from './Navbar'
+import Header from './Header'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { DateRange } from 'react-date-range';
-import SearchItem from './Components/SearchItem';
+import SearchItem from './SearchItem';
 import Hotel from './Hotel';
 const List = () => {
 
