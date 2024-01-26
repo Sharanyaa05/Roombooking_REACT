@@ -2,7 +2,7 @@ import React from 'react'
 import "./FeaturedProperties.css"
 const FeaturedProperties = () => {
   return (
-    <div className='fp'>
+    <div className='fp col-12 container'>
         <div className='fpItem'>
         <img src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o=" className="fpImg"/>
         <div className='fpTitle'>
