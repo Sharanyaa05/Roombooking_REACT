@@ -84,7 +84,7 @@ const Header = ({ type }) => {
             <button className="headerBtn ml-auto" onClick={handleLogin}>
               Sign in/ Register
             </button>
-            <div className="headerSearch">
+            <div className="headerSearch d-flex col-md-12 col-placeholder-none">
               <div className="headerSearchItem">
                 <FontAwesomeIcon
                   icon={faBed}
@@ -97,7 +97,7 @@ const Header = ({ type }) => {
                   onChange={(e) => setDestination(e.target.value)}
                 ></input>
               </div>
-              <div className="headerSearchItem">
+              <div className="headerSearchItem ">
                 <FontAwesomeIcon
                   icon={faCalendarDays}
                   className="headerIcon"
@@ -122,7 +122,7 @@ const Header = ({ type }) => {
                   />
                 )}
               </div>
-              <div className="headerSearchItem">
+              <div className="headerSearchItem ">
                 <FontAwesomeIcon
                   icon={faPerson}
                   className="headerIcon"
@@ -201,7 +201,7 @@ const Header = ({ type }) => {
                   </div>
                 )}
               </div>
-              <div className="headerSearchItem">
+              <div className="headerSearchItem ">
                 <button className="headerBtn p-1" onClick={handleSearch}>
                   Search
                 </button>
