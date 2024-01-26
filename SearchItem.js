@@ -10,7 +10,7 @@ const SearchItem = ({roomData, handleSearch}) => {
   }
 
   return (
-    <div className="searchItem">
+    <div className="searchItem col-d-flex col-flex-direction-column">
       <img
         src={roomData.Image}
         alt=""
