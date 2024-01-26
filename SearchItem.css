@@ -108,3 +108,14 @@
     cursor: pointer;
     border-radius: 5px;
   }
+  @media (max-width: 768px) {
+    .searchItem {
+      margin-top: 410px!important;
+      display: flex;
+      flex-direction: column;
+      margin-left: -270px !important;
+      width: fit-content;
+      height:610px;
+      align-items: center; 
+    }
+  }
