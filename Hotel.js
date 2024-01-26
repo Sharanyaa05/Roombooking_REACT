@@ -1,8 +1,8 @@
 import "./Hotel.css";
-import Navbar from './Components/Navbar'
-import Header from './Components/Header'
-import MailList from "./Components/MailList";
-import Footer from "./Components/Footer";
+import Navbar from './Navbar'
+import Header from './Header'
+import MailList from "./MailList";
+import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleArrowLeft,
