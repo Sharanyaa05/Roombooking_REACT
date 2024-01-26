@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
-import Home from './Roombooking/Home';
-import Hotel from './Roombooking/Hotel';
-import List from './Roombooking/List';
-import { About } from './Roombooking/Components/About';
-import { Contact } from './Roombooking/Components/Contact';
-import { Signin } from './Roombooking/Components/Signin';
-import { CreateAccount } from './Roombooking/Components/CreateAccount';
-import { OwnerDatails } from './Roombooking/Components/OwnerDetails';
+import Home from './Home';
+import Hotel from './Hotel';
+import List from './List';
+import { About } from './About';
+import { Contact } from './Contact';
+import { Signin } from './Signin';
+import { CreateAccount } from './CreateAccount';
+import { OwnerDatails } from './OwnerDetails';
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/hotel/:roomName/:roomLocation/:roomRant" element={<Hotel />} />
-
+        <Route path="/hotel/:roomName/:roomLocation/:roomRant" element={<Hotel/>} />
         <Route path="/hotelid" element={<List/>}></Route>
         <Route path='/AboutUs' element={<About/>}></Route>
         <Route path="/ContactUs" element={<Contact/>}></Route>
