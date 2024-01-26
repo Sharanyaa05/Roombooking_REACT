@@ -19,7 +19,7 @@ function About() {
       </Row>
 
       <Row className="mt-5">
-        <Col md={4}>
+        <Col md={4} className="mb-3">
           <Card className="h-100">
             <Card.Body>
               <Card.Title className="text-center">Explore</Card.Title>
@@ -30,7 +30,7 @@ function About() {
           </Card>
         </Col>
 
-        <Col md={4}>
+        <Col md={4} className="mb-3">
           <Card className="h-100">
             <Card.Body>
               <Card.Title className="text-center">Easy Booking</Card.Title>
